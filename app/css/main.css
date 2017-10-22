@@ -1,0 +1,103 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  font-family: main;
+  font-size: 5mm; }
+
+.leftPad, .rightPad {
+  height: 210mm;
+  vertical-align: top;
+  padding: 0;
+  margin: 0;
+  display: inline-table; }
+
+.leftPad {
+  width: calc(148.5mm - 1px);
+  border-right: 1px solid black; }
+
+h1 {
+  font-weight: normal;
+  font-size: 9mm; }
+
+.rightPad {
+  width: 148.5mm; }
+
+.footer {
+  display: table-cell;
+  vertical-align: bottom;
+  padding-bottom: 2mm;
+  padding-right: -1mm; }
+
+main {
+  margin: 7mm; }
+
+@font-face {
+  font-family: title;
+  src: url(../fonts/title.ttf); }
+
+@font-face {
+  font-family: main;
+  src: url(../fonts/main.ttf); }
+
+#botfather {
+  width: 60mm;
+  height: 60mm; }
+
+#title-container {
+  margin-top: 20mm;
+  margin-bottom: 20mm;
+  text-align: center;
+  padding: 0;
+  border-top: 1px solid transparent; }
+
+#title {
+  background: #444;
+  color: white; }
+
+#title-name {
+  margin-top: 20mm;
+  font-size: 10mm;
+  font-family: title; }
+
+#tech-name {
+  margin-top: 20mm;
+  font-size: 10mm;
+  font-family: title; }
+
+#and-name {
+  margin-top: 20mm;
+  font-size: 10mm;
+  display: inline;
+  margin: 5mm;
+  font-family: title; }
+
+#nodejs {
+  width: 50mm;
+  height: 50mm;
+  vertical-align: middle; }
+
+#coffeescript {
+  width: 50mm;
+  height: 50mm;
+  vertical-align: middle; }
+
+#tech {
+  margin-top: 10mm; }
+
+#back {
+  background: #444; }
+
+#toc-body {
+  font-size: 5mm; }
+
+.toc-item {
+  display: block; }
+
+.toc-label {
+  float: left;
+  display: inline; }
+
+.toc-number {
+  float: right;
+  display: inline; }
